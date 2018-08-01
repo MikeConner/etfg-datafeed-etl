@@ -3,6 +3,8 @@
 source 'https://rubygems.org'
 
 gem 'activesupport'
+gem 'kiba'
+gem 'pg'
 
 group :test do
   gem 'rspec'
