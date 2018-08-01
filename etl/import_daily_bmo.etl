@@ -1,0 +1,34 @@
+# frozen_string_literal: true
+
+require File.expand_path("../../config/environment", __FILE__)
+
+db_config_filepath = File.join(File.dirname(__FILE__), "../config/database.yml")
+db_config = YAML.load_file(db_config_filepath)[ENV['env'] || 'development']
+
+db_url = "postgresql://#{db_config['username']}:#{db_config['password']}@#{db_config['host']}/#{db_config['database']}"
+
+# For testing
+target_date = '20180726'
+# target_date = Time.now.strftime('%Y%m%d')
+
+holdings_filename = "ETFDailyHoldings-#{target_date}.csv"
+
+holdings_filepath = File.join(
+  File.dirname(__FILE__), "../data_feed_imports/bmo/#{holdings_filename}"
+)
+
+exit unless File.exist?(holdings_filepath)
+
+pre_process do
+  puts "Start importing #{holdings_filename} ..."
+end
+
+source CSVSource, holdings_filepath, headers: true, liberal_parsing: true
+
+transform BmoHoldingsTransformer, target_date: target_date
+
+destination BmoHoldingsDestination, db_url
+
+post_process do
+  puts "Imported from #{holdings_filename} ..."
+end
