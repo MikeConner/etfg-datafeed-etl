@@ -1,4 +1,3 @@
-require 'pg'
 # frozen_string_literal: true
 
 class BmoHoldingsDestination
