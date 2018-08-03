@@ -11,9 +11,9 @@ RSpec.describe BmoHoldingsTransformer do
 
   it 'transforms holdings files correctly' do
     holdings_file_path = File.join(
-      File.dirname(__FILE__), '../fixtures/bmo/ETFDailyHoldings-20180726.test.csv'
+      File.dirname(__FILE__), '../fixtures/bmo/ETFDailyHoldings-20180725.test.csv'
     )
-    bmo_holdings = BmoHoldingsTransformer.new(target_date: '20180726')
+    bmo_holdings = BmoHoldingsTransformer.new(target_date: '20180725')
     rows = get_data_from_csv(holdings_file_path)
 
     first_new_row = bmo_holdings.process(rows.first)
@@ -24,7 +24,7 @@ RSpec.describe BmoHoldingsTransformer do
     expect(first_new_row[:cusip]).to be_blank
     expect(first_new_row[:security_id]).to eq '8304 JP'
     expect(first_new_row[:quantity_per_paramount]).to eq '200'
-    expect(first_new_row[:etfg_date]).to eq Date.new(2018,7,26)
+    expect(first_new_row[:etfg_date]).to eq Date.new(2018,7,25)
 
     last_new_row = bmo_holdings.process(rows.last)
     expect(last_new_row[:ticker]).to eq 'BANK'
@@ -34,6 +34,6 @@ RSpec.describe BmoHoldingsTransformer do
     expect(last_new_row[:cusip]).to be_blank
     expect(last_new_row[:security_id]).to eq 'BG AV'
     expect(last_new_row[:quantity_per_paramount]).to eq '90'
-    expect(last_new_row[:etfg_date]).to eq Date.new(2018,7,26)
+    expect(last_new_row[:etfg_date]).to eq Date.new(2018,7,25)
   end
 end
