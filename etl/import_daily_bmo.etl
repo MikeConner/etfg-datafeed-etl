@@ -1,0 +1,27 @@
+# frozen_string_literal: true
+
+require File.expand_path("../../config/environment", __FILE__)
+
+target_date = '20180725'
+# target_date = Time.now.strftime('%Y%m%d')
+
+# TODO: we will implement to retreive csv file from path (/data/csv_input/...)
+# BMO Holdings
+holdings_filepath = File.join(
+  File.dirname(__FILE__), "../spec/fixtures/bmo/ETFDailyHoldings-#{target_date}.test.csv"
+)
+raise("#{holdings_filepath} not found") unless File.exist?(holdings_filepath)
+
+pre_process do
+  puts "Start importing #{holdings_filepath} ..."
+end
+
+source CSVSource, holdings_filepath, headers: true, liberal_parsing: true
+
+transform BmoHoldingsTransformer, target_date: target_date
+
+destination BmoHoldingsDestination, $db_config['url']
+
+post_process do
+  puts "Imported from #{holdings_filepath} ..."
+end
