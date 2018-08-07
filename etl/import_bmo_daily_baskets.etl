@@ -1,0 +1,24 @@
+# frozen_string_literal: true
+
+require File.expand_path("../../config/environment", __FILE__)
+
+target_date = '20180725'
+# target_date = Time.now.strftime('%Y%m%d')
+
+# TODO: we will implement to retreive csv file from path (/data/csv_input/...)
+baskets_filepath = File.join(
+  File.dirname(__FILE__), "../spec/fixtures/bmo/baskets.#{target_date}.test.csv"
+)
+raise("#{baskets_filepath} not found") unless File.exist?(baskets_filepath)
+
+pre_process do
+  puts "Start importing #{baskets_filepath} ..."
+end
+
+source BmoBasketsSource, baskets_filepath
+transform BmoBasketsTransformer, target_date: target_date
+destination BmoBasketsDestination, $db_config['url']
+
+post_process do
+  puts "Imported from #{baskets_filepath} ..."
+end
