@@ -14,6 +14,10 @@ raise('No database config file') unless File.exist?(db_config_filepath)
 yaml = File.read(db_config_filepath)
 $db_config = YAML.load(ERB.new(yaml).result)[APP_ENV]
 
+Dir[File.join(File.dirname(__FILE__), '..', 'lib', '*.rb')].each do |file|
+  require file
+end
+
 Dir[File.join(File.dirname(__FILE__), '..', 'sources', '*.rb')].each do |file|
   require file
 end

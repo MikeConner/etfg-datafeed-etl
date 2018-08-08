@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 class BmoHoldingsTransformer
+  include DataFormatter
+
   def initialize(target_date:)
     @target_date = target_date
   end
@@ -16,11 +18,5 @@ class BmoHoldingsTransformer
     new_row[:quantity_per_paramount] = row['Quantity/ParAmount']
     new_row[:etfg_date] = Date.parse(@target_date)
     new_row
-  end
-
-  private
-
-  def cleanup_data(data)
-    data.match?(/=\"(.*)\"/) ? data.match(/=\"(.*)\"/)[1] : data
   end
 end
