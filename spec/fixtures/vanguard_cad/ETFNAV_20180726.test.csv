@@ -1,0 +1,34 @@
+TICKER,ISIN,SEDOL,CUSIP,Description,Trade Date,NAV,Status,Shares in Creation Units,Application Value,Sum Of Market Value,Actual Cash
+VA,CA92206N1087,BYXJBV9,-,Vanguard FTSE Developed Asia Pacific All Cap Index ETF,07/26/2018,35.1823,FINAL,200000,7036460,7030516.82,5943.18
+VAH,CA92204C1041,BD97273,-,Vanguard FTSE Developed Asia Pacific All Cap Index ETF (CAD-hedged),07/26/2018,31.0886,FINAL,25000,777215,776168.12,1046.88
+VCE,CA92203U1057,B8W13N0,-,Vanguard FTSE Canada Index ETF,07/26/2018,34.9217,FINAL,50000,1746085,1743581.57,2503.43
+VCN,CA92205P1045,BBX4834,-,Vanguard FTSE Canada All Cap Index ETF,07/26/2018,33.3972,FINAL,75000,2504790,2501955.42,2834.58
+VDU,CA92206W1086,BYZVZ44,-,Vanguard FTSE Developed All Cap ex U.S. Index ETF,07/26/2018,35.9465,FINAL,10000,359465,359319.98,145.02
+VDY,CA92203Q1046,B7Y7566,-,Vanguard FTSE Canadian High Dividend Yield Index ETF,07/26/2018,33.9808,FINAL,50000,1699040,1695969.02,3070.98
+VE,CA92206M1005,BYXJBT7,-,Vanguard FTSE Developed Europe All Cap Index ETF,07/26/2018,29.8032,FINAL,200000,5960640,5958282.5,2357.5
+VEE,CA92205X1078,BYZTVL7,-,Vanguard FTSE Emerging Markets All Cap Index ETF,07/26/2018,34.3381,FINAL,10000,343381,343245.32,135.68
+VEF,CA92207G1028,BYZVZ66,-,Vanguard FTSE Developed All Cap ex U.S. Index ETF (CAD-hedged),07/26/2018,41.5004,FINAL,25000,1037510,1036399.98,1110.02
+VEH,CA92206Y1043,BD97295,-,Vanguard FTSE Developed Europe All Cap Index ETF (CAD-hedged),07/26/2018,29.7092,FINAL,25000,742730,741806.38,923.62
+VFV,CA92205Y1051,B6WF833,-,Vanguard S&P 500 Index ETF,07/26/2018,65.8957,FINAL,10000,658957,658751.19,205.81
+VGG,CA92206F1053,BBX4812,-,Vanguard U.S. Dividend Appreciation Index ETF,07/26/2018,47.4356,FINAL,10000,474356,474208.69,147.31
+VGH,CA92206E1088,BBX4823,-,Vanguard U.S. Dividend Appreciation Index ETF (CAD-hedged),07/26/2018,37.1983,FINAL,10000,371983,371862.93,120.07
+VI,CA92206P1036,BYSQ5M4,-,Vanguard FTSE Developed All Cap ex North America Index ETF (CAD-hedged),07/26/2018,29.0762,FINAL,25000,726905,726946.81,-41.81
+VIU,CA92204G1054,BYSQ5L3,-,Vanguard FTSE Developed All Cap ex North America Index ETF,07/26/2018,28.9388,FINAL,200000,5787760,5783769.19,3990.81
+VLQ,CA9220321074,BYXJSK7,-,Vanguard Global Liquidity Factor ETF,07/26/2018,34.4297,FINAL,400000,13771880,13769127.8,2752.2
+VMO,CA92207T1049,BYXJSM9,-,Vanguard Global Momentum Factor ETF,07/26/2018,35.368,FINAL,400000,14147200,14141524.3,5675.7
+VRE,CA92203B1076,B8KFCV5,-,Vanguard FTSE Canadian Capped REIT Index ETF,07/26/2018,32.2684,FINAL,50000,1613420,1612872.32,547.68
+VSP,CA92206A1066,B7YP6M3,-,Vanguard S&P 500 Index ETF (CAD-hedged),07/26/2018,49.69,FINAL,10000,496900,496788.19,111.81
+VUN,CA92206D1006,BBX47V5,-,Vanguard U.S. Total Market Index ETF,07/26/2018,52.011,FINAL,10000,520110,519967.63,142.37
+VUS,CA92206B1040,B979P52,-,Vanguard U.S. Total Market Index ETF (CAD-hedged),07/26/2018,56.1487,FINAL,10000,561487,561374.87,112.13
+VVL,CA92207U1012,BYXJSN0,-,Vanguard Global Value Factor ETF,07/26/2018,35.8711,FINAL,400000,14348440,14343513.48,4926.52
+VVO,CA92207Q1000,BYXJSL8,-,Vanguard Global Minimum Volatility ETF,07/26/2018,31.5777,FINAL,200000,6315540,6298866.46,16673.54
+VXC,CA92206Q1019,BYXJBW0,-,Vanguard FTSE Global All Cap ex Canada Index ETF,07/26/2018,37.6878,FINAL,10000,376878,376636.34,241.66
+
+"Your use of the data supplied by Vanguard is subject to the following terms and conditions excerpt from Vanguard’s agreement. Through your continued use of the data you accept the Terms and Conditions. If you do not accept the Terms and Conditions you must immediately cease using the data. SEDOL Data has been provided from the London Stock Exchange's SEDOL Masterfile which delineate that (i) Customers may not reproduce or redistribute the Data unless in accordance with their license from the Exchange or with its prior written consent and (ii) the customer, and not Vanguard, is responsible for obtaining any such relevant licenses from the Exchange for any reproduction or redistribution of the Data by the customer. ""SEDOL"" and ""SEDOL Masterfile"" are registered trademarks of the London Stock Exchange.",,,,,,,,,,,
+
+
+
+
+
+
+"CGS identifiers have been provided by CUSIP Global Services, managed on behalf of the American Bankers Association by Standard & Poor’s Financial Services, LLC, and are not for use or dissemination in a manner that would serve as a substitute for any CUSIP service. The CUSIP Database, © 2018 American Bankers Association. “CUSIP” is a registered trademark of the American Bankers Association.",,,,,,,,,,,
