@@ -9,11 +9,12 @@ class VanguardCadEtfnavTransformer
 
   def process(row)
     return if row['NAV'].blank?
+    row = convert_dash_to_nil(row)
     new_row = {
       ticker: row['TICKER'],
       isin: row['ISIN'],
       sedol: row['SEDOL'],
-      cusip: (row['CUSIP'] == '-') ? nil : row['CUSIP'],
+      cusip: row['CUSIP'],
       description: row['Description'],
       trade_date: Date.strptime(row['Trade Date'], '%m/%d/%Y'),
       nav: row['NAV'],

@@ -1,11 +1,14 @@
 # frozen_string_literal: true
 
 class BmoBasketsTransformer
+  include DataFormatter
+
   def initialize(target_date:)
     @target_date = target_date
   end
 
   def process(row)
+    row = convert_dash_to_nil(row)
     new_row = {
       fund_ticker: row[0],
       fund_account_number: row[1],
