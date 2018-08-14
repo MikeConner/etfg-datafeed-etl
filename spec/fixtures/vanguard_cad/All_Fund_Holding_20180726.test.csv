@@ -1,0 +1,108 @@
+
+TICKER,VA,,,,,,,,,,,,,,,,
+FUND NAME,FTSE Developed Asia Pacific All Cap Index ETF,,,,,,,,,,,,,,,,
+Fund Id,9550,,,,,,,,,,,,,,,,
+As of date,30-Jun-2018,,,,,,,,,,,,,,,,
+Equity holdings count,2279,,,,,,,,,,,,,,,,
+Bond holdings count,0,,,,,,,,,,,,,,,,
+Short term reserve count,0,,,,,,,,,,,,,,,,
+Listed currency,CAD,,,,,,,,,,,,,,,,
+Listed currency symbol,$,,,,,,,,,,,,,,,,
+Fund currency,CAD,,,,,,,,,,,,,,,,
+Fund currency symbol,$,,,,,,,,,,,,,,,,
+,Asset type,Holding name,Ticker,CUSIP,SEDOL,ISIN,% of fund,Sector,Country,Security depository receipt type,Market value,Face amount,Coupon rate,Maturity date,Shares,Currency Code,Currency Symbol
+,STOCK,Samsung Electronics Co. Ltd.,5930,-,6771720,KR7005930003,2.79577,Consumer Electronics,KR,-,3542144,64331,-,-,64331,CAD,$
+,STOCK,Toyota Motor Corp.,7203,-,6900643,JP3633400001,2.35903,Automobiles,JP,-,2988808,35100,-,-,35100,CAD,$
+,STOCK,AIA Group Ltd.,1299,-,B4TX8S1,HK0000069689,1.5012,Life Insurance,HK,-,1901968,165357,-,-,165357,CAD,$
+,STOCK,Commonwealth Bank of Australia,CBA,-,6215035,AU000000CBA7,1.34726,Banks,AU,-,1706925,24101,-,-,24101,CAD,$
+,STOCK,BHP Billiton Ltd.,BHP,-,6144690,AU000000BHP4,1.14271,General Mining,AU,-,1447771,43928,-,-,43928,CAD,$
+,STOCK,Westpac Banking Corp.,WBC,-,6076146,AU000000WBC1,1.05322,Banks,AU,-,1334387,46858,-,-,46858,CAD,$
+,STOCK,CSL Ltd.,CSL,-,6185495,AU000000CSL8,0.91318,Pharmaceuticals,AU,-,1156965,6180,-,-,6180,CAD,$
+,STOCK,SoftBank Group Corp.,9984,-,6770620,JP3436100006,0.87194,Mobile Telecommunications,JP,-,1104721,11667,-,-,11667,CAD,$
+,STOCK,Australia & New Zealand Banking Group Ltd.,ANZ,-,6065586,AU000000ANZ3,0.85968,Banks,AU,-,1089180,39683,-,-,39683,CAD,$
+,STOCK,National Australia Bank Ltd.,NAB,-,6624608,AU000000NAB4,0.7834,Banks,AU,-,992539,37257,-,-,37257,CAD,$
+,-,Other,-,-,-,-,3.54003,-,-,-,-,-,-,-,-,-,-
+TICKER,VI,,,,,,,,,,,,,,,,
+FUND NAME,FTSE Developed All Cap ex North America Index ETF (CAD-hedged),,,,,,,,,,,,,,,,
+Fund Id,9570,,,,,,,,,,,,,,,,
+As of date,30-Jun-2018,,,,,,,,,,,,,,,,
+Equity holdings count,3667,,,,,,,,,,,,,,,,
+Bond holdings count,0,,,,,,,,,,,,,,,,
+Short term reserve count,0,,,,,,,,,,,,,,,,
+Listed currency,CAD,,,,,,,,,,,,,,,,
+Listed currency symbol,$,,,,,,,,,,,,,,,,
+Fund currency,CAD,,,,,,,,,,,,,,,,
+Fund currency symbol,$,,,,,,,,,,,,,,,,
+,Asset type,Holding name,Ticker,CUSIP,SEDOL,ISIN,% of fund,Sector,Country,Security depository receipt type,Market value,Face amount,Coupon rate,Maturity date,Shares,Currency Code,Currency Symbol
+,STOCK,Nestle SA,NESN,-,7123870,CH0038863350,1.32149,Food Products,CH,-,1907708,18726,-,-,18726,CAD,$
+,STOCK,Samsung Electronics Co. Ltd.,5930,-,6771720,KR7005930003,1.09975,Consumer Electronics,KR,-,1587602,28833,-,-,28833,CAD,$
+,STOCK,HSBC Holdings plc,HSBA,-,0540528,GB0005405286,1.05409,Banks,GB,-,1521687,123284,-,-,123284,CAD,$
+,STOCK,Toyota Motor Corp.,7203,-,6900643,JP3633400001,0.9294,Automobiles,JP,-,1341691,15757,-,-,15757,CAD,$
+,STOCK,Novartis AG,NOVN,-,7103065,CH0012005267,0.9255,Pharmaceuticals,CH,-,1336058,13397,-,-,13397,CAD,$
+,STOCK,Royal Dutch Shell plc Class A,RDSA,-,B03MLX2,GB00B03MLX29,0.88529,Integrated Oil & Gas,GB,-,1278011,27991,-,-,27991,CAD,$
+,STOCK,TOTAL SA,FP,-,B15C557,FR0000120271,0.85893,Integrated Oil & Gas,FR,-,1239955,15463,-,-,15463,CAD,$
+,STOCK,Royal Dutch Shell plc Class B,RDSB,-,B03MM40,GB00B03MM408,0.76389,Integrated Oil & Gas,GB,-,1102753,23400,-,-,23400,CAD,$
+,STOCK,British American Tobacco plc,BATS,-,0287580,GB0002875804,0.63998,Tobacco,GB,-,923879,13889,-,-,13889,CAD,$
+,STOCK,SAP SE,SAP,-,4846288,DE0007164600,0.62625,Software,DE,-,904054,5949,-,-,5949,CAD,$
+,STOCK,Bayer AG,BAYN,-,5069211,DE000BAY0017,0.57924,Pharmaceuticals,DE,-,836191,5771,-,-,5771,CAD,$
+,STOCK,Siemens AG,SIE,-,5727973,DE0007236101,0.56763,Diversified Industrials,DE,-,819436,4712,-,-,4712,CAD,$
+,-,Other,-,-,-,-,2.10338,-,-,-,-,-,-,-,-,-,-
+TICKER,VEE,,,,,,,,,,,,,,,,
+FUND NAME,FTSE Emerging Markets All Cap Index ETF,,,,,,,,,,,,,,,,
+Fund Id,9556,,,,,,,,,,,,,,,,
+As of date,30-Jun-2018,,,,,,,,,,,,,,,,
+Equity holdings count,4643,,,,,,,,,,,,,,,,
+Bond holdings count,0,,,,,,,,,,,,,,,,
+Short term reserve count,0,,,,,,,,,,,,,,,,
+Listed currency,CAD,,,,,,,,,,,,,,,,
+Listed currency symbol,$,,,,,,,,,,,,,,,,
+Fund currency,CAD,,,,,,,,,,,,,,,,
+Fund currency symbol,$,,,,,,,,,,,,,,,,
+,Asset type,Holding name,Ticker,CUSIP,SEDOL,ISIN,% of fund,Sector,Country,Security depository receipt type,Market value,Face amount,Coupon rate,Maturity date,Shares,Currency Code,Currency Symbol
+,STOCK,Tencent Holdings Ltd.,700,-,BMMV2K8,KYG875721634,5.25035,Internet,CN,-,45219171,684976,-,-,684976,CAD,$
+,STOCK,Alibaba Group Holding Ltd. ADR,BABA,01609W102,BP41ZD1,US01609W1027,3.54459,Specialized Consumer Services,CN,-,30528163,125163,-,-,125163,CAD,$
+,STOCK,Naspers Ltd.,NPN,-,6622691,ZAE000015889,1.97081,Broadcasting & Entertainment,ZA,-,16973777,51206,-,-,51206,CAD,$
+,STOCK,Taiwan Semiconductor Manufacturing Co. Ltd.,2330,-,6889106,TW0002330008,1.88653,Semiconductors,TW,-,16247974,1740463,-,-,1740463,CAD,$
+,STOCK,China Construction Bank Corp.,939,-,B0LMTQ3,CNE1000002H1,1.50535,Banks,CN,-,12964958,10777554,-,-,10777554,CAD,$
+,STOCK,Taiwan Semiconductor Manufacturing Co. Ltd. ADR,TSM,874039100,2113382,US8740391003,1.29979,Semiconductors,TW,-,11194579,232912,-,-,232912,CAD,$
+,STOCK,Baidu Inc. ADR,BIDU,056752108,B0FXT17,US0567521085,1.23515,Internet,CN,-,10637820,33299,-,-,33299,CAD,$
+,STOCK,China Mobile Ltd.,941,-,6073556,HK0941009539,0.85981,Mobile Telecommunications,CN,-,7405221,634834,-,-,634834,CAD,$
+,STOCK,Housing Development Finance Corp. Ltd.,HDFC,-,6171900,INE001A01036,0.85102,Mortgage Finance,IN,-,7329523,200084,-,-,200084,CAD,$
+,STOCK,Reliance Industries Ltd.,RELIANCE,-,6099626,INE002A01018,0.81219,Exploration & Production,IN,-,6995100,374501,-,-,374501,CAD,$
+,-,Other,-,-,-,-,3.79174,-,-,-,-,-,-,-,-,-,-
+TICKER,VVO,,,,,,,,,,,,,,,,
+FUND NAME,Global Minimum Volatility ETF,,,,,,,,,,,,,,,,
+Fund Id,9828,,,,,,,,,,,,,,,,
+As of date,31-Mar-2018,,,,,,,,,,,,,,,,
+Equity holdings count,182,,,,,,,,,,,,,,,,
+Bond holdings count,0,,,,,,,,,,,,,,,,
+Short term reserve count,0,,,,,,,,,,,,,,,,
+Listed currency,CAD,,,,,,,,,,,,,,,,
+Listed currency symbol,$,,,,,,,,,,,,,,,,
+Fund currency,CAD,,,,,,,,,,,,,,,,
+Fund currency symbol,$,,,,,,,,,,,,,,,,
+,Asset type,Holding name,Ticker,CUSIP,SEDOL,ISIN,% of fund,Sector,Country,Security depository receipt type,Market value,Face amount,Coupon rate,Maturity date,Shares,Currency Code,Currency Symbol
+,STOCK,Bright Horizons Family Solutions Inc.,BFAM,109194100,B7MJWP2,US1091941005,1.62066,Specialized Consumer Services,US,-,382092,2972,-,-,2972,CAD,$
+,STOCK,Broadridge Financial Solutions Inc.,BR,11133T103,B1VP7R6,US11133T1034,1.55956,Financial Administration,US,-,367686,2600,-,-,2600,CAD,$
+,STOCK,Grand Canyon Education Inc.,LOPE,38526M106,B3F1XM1,US38526M1062,1.55657,Specialized Consumer Services,US,-,366982,2713,-,-,2713,CAD,$
+,STOCK,Hermes International,RMS,-,5253973,FR0000052292,1.55112,Clothing & Accessories,FR,-,365697,479,-,-,479,CAD,$
+,STOCK,Amdocs Ltd.,DOX,-,2256908,GB0022569080,1.49662,Software,US,-,352849,4102,-,-,4102,CAD,$
+,STOCK,Chemed Corp.,CHE,16359R103,2190084,US16359R1032,1.48763,Specialized Consumer Services,US,-,350729,997,-,-,997,CAD,$
+,STOCK,National Instruments Corp.,NATI,636518102,2645078,US6365181022,1.48528,Electronic Equipment,US,-,350175,5371,-,-,5371,CAD,$
+,STOCK,BWX Technologies Inc.,BWXT,05605H100,BZ0W624,US05605H1005,1.48413,Defense,US,-,349903,4272,-,-,4272,CAD,$
+,STOCK,China Mobile Ltd. ADR,CHL,16941M109,2111375,US16941M1099,1.46881,Mobile Telecommunications,CN,-,346290,5871,-,-,5871,CAD,$
+,STOCK,Starwood Property Trust Inc.,STWD,85571B105,B3PQ520,US85571B1052,1.46492,Mortgage REITs,US,-,345374,12787,-,-,12787,CAD,$
+,STOCK,Sonoco Products Co.,SON,835495102,2821395,US8354951027,1.39611,Containers & Packaging,US,-,329151,5264,-,-,5264,CAD,$
+,STOCK,WD-40 Co.,WDFC,929236107,2944742,US9292361071,1.359,Nondurable Household Products,US,-,320402,1887,-,-,1887,CAD,$
+,STOCK,Jack Henry & Associates Inc.,JKHY,426281101,2469193,US4262811015,1.34926,Financial Administration,US,-,318107,2040,-,-,2040,CAD,$
+,STOCK,Expeditors International of Washington Inc.,EXPD,302130109,2325507,US3021301094,1.18453,Delivery Services,US,-,279268,3422,-,-,3422,CAD,$
+,-,Other,-,-,-,-,2.86555,-,-,-,-,-,-,-,-,-,-
+
+"Your use of the data supplied by Vanguard is subject to the following terms and conditions excerpt from Vanguard’s agreement. Through your continued use of the data you accept the Terms and Conditions. If you do not accept the Terms and Conditions you must immediately cease using the data. SEDOL Data has been provided from the London Stock Exchange's SEDOL Masterfile which delineate that (i) Customers may not reproduce or redistribute the Data unless in accordance with their license from the Exchange or with its prior written consent and (ii) the customer, and not Vanguard, is responsible for obtaining any such relevant licenses from the Exchange for any reproduction or redistribution of the Data by the customer. ""SEDOL"" and ""SEDOL Masterfile"" are registered trademarks of the London Stock Exchange.",,,,,,,,,,,,,,,,,
+
+
+
+
+
+
+"CGS identifiers have been provided by CUSIP Global Services, managed on behalf of the American Bankers Association by Standard & Poor’s Financial Services, LLC, and are not for use or dissemination in a manner that would serve as a substitute for any CUSIP service. The CUSIP Database, © 2018 American Bankers Association. “CUSIP” is a registered trademark of the American Bankers Association.",,,,,,,,,,,,,,,,,
