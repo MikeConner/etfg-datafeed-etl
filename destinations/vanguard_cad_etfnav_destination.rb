@@ -4,7 +4,7 @@ class VanguardCadEtfnavDestination
   def initialize(connect_url)
     @conn = PG.connect(connect_url)
     @conn.prepare('insert_pg_stmt',
-      'INSERT INTO vanguard_cad_etfnav (
+      'INSERT INTO feed.vanguard_cad_etfnav (
         ticker, isin, sedol, cusip, description, trade_date,
         nav, status, shares_in_creation_units, application_value,
         sum_of_market_value, actualcash, etfg_date)
