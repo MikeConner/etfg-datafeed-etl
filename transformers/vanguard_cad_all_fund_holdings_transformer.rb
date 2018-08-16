@@ -9,6 +9,7 @@ class VanguardCadAllFundHoldingsTransformer
 
   def process(row)
     row = convert_dash_to_nil(row)
+    maturity_date_start, maturity_date_end = manipulate_maturity_date(row[24])
     new_row = {
       fund_ticker: row[0],
       fund_name: row[1],
@@ -34,7 +35,8 @@ class VanguardCadAllFundHoldingsTransformer
       market_value: row[21],
       face_amount: row[22],
       coupon_rate: row[23],
-      maturity_date: row[24],
+      maturity_date_start: maturity_date_start,
+      maturity_date_end: maturity_date_end,
       shares: row[25],
       currency_code: row[26],
       currency_symbol: row[27],

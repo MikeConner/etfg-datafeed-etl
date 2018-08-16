@@ -11,8 +11,8 @@ Listed currency symbol,$,,,,,,,,,,,,,,,,
 Fund currency,CAD,,,,,,,,,,,,,,,,
 Fund currency symbol,$,,,,,,,,,,,,,,,,
 ,Asset type,Holding name,Ticker,CUSIP,SEDOL,ISIN,% of fund,Sector,Country,Security depository receipt type,Market value,Face amount,Coupon rate,Maturity date,Shares,Currency Code,Currency Symbol
-,STOCK,Samsung Electronics Co. Ltd.,5930,-,6771720,KR7005930003,2.79577,Consumer Electronics,KR,-,3542144,64331,-,-,64331,CAD,$
-,STOCK,Toyota Motor Corp.,7203,-,6900643,JP3633400001,2.35903,Automobiles,JP,-,2988808,35100,-,-,35100,CAD,$
+,STOCK,Samsung Electronics Co. Ltd.,5930,-,6771720,KR7005930003,2.79577,Consumer Electronics,KR,-,3542144,64331,-,01-Oct-2019,64331,CAD,$
+,STOCK,Toyota Motor Corp.,7203,-,6900643,JP3633400001,2.35903,Automobiles,JP,-,2988808,35100,-,15-Sep-2023 - 20-Sep-2040,35100,CAD,$
 ,STOCK,AIA Group Ltd.,1299,-,B4TX8S1,HK0000069689,1.5012,Life Insurance,HK,-,1901968,165357,-,-,165357,CAD,$
 ,STOCK,Commonwealth Bank of Australia,CBA,-,6215035,AU000000CBA7,1.34726,Banks,AU,-,1706925,24101,-,-,24101,CAD,$
 ,STOCK,BHP Billiton Ltd.,BHP,-,6144690,AU000000BHP4,1.14271,General Mining,AU,-,1447771,43928,-,-,43928,CAD,$

@@ -4,16 +4,16 @@ class VanguardCadAllFundHoldingsDestination
   def initialize(connect_url)
     @conn = PG.connect(connect_url)
     @conn.prepare('insert_pg_stmt',
-      'INSERT INTO vanguard_cad_all_fund_holdings (
-          fund_ticker, fund_name, fund_id, as_of_date, equity_holdings_count,
-          bond_holdings_count, short_term_reserve_count, listed_currency,
-          listed_currency_symbol, fund_currency, fund_currency_symbol,
-          asset_type, holding_name, ticker, cusip, sedol, isin, percent_of_fund,
-          sector, country, security_depository_receipt_type, market_value,
-          face_amount, coupon_rate, maturity_date, shares, currency_code,
-          currency_symbol, etfg_date)
+      'INSERT INTO feed.vanguard_cad_all_fund_holdings (
+        fund_ticker, fund_name, fund_id, as_of_date, equity_holdings_count,
+        bond_holdings_count, short_term_reserve_count, listed_currency,
+        listed_currency_symbol, fund_currency, fund_currency_symbol,
+        asset_type, holding_name, ticker, cusip, sedol, isin, percent_of_fund,
+        sector, country, security_depository_receipt_type, market_value,
+        face_amount, coupon_rate, maturity_date_start, maturity_date_end,
+        shares, currency_code, currency_symbol, etfg_date)
       VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15,
-        $16, $17, $18, $19, $20, $21, $22, $23, $24, $25, $26, $27, $28, $29);')
+        $16, $17, $18, $19, $20, $21, $22, $23, $24, $25, $26, $27, $28, $29, $30);')
   end
 
   def write(row)
@@ -43,7 +43,8 @@ class VanguardCadAllFundHoldingsDestination
         row[:market_value],
         row[:face_amount],
         row[:coupon_rate],
-        row[:maturity_date],
+        row[:maturity_date_start],
+        row[:maturity_date_end],
         row[:shares],
         row[:currency_code],
         row[:currency_symbol],
