@@ -1,0 +1,62 @@
+
+TICKER,VNQ,,,,,,,,,,,,,,,,
+FUND NAME,Real Estate ETF,,,,,,,,,,,,,,,,
+Fund Id,986,,,,,,,,,,,,,,,,
+As of date,30-Jun-2018,,,,,,,,,,,,,,,,
+Equity holdings count,188,,,,,,,,,,,,,,,,
+Bond holdings count,0,,,,,,,,,,,,,,,,
+Short term reserve count,2,,,,,,,,,,,,,,,,
+Listed currency,-,,,,,,,,,,,,,,,,
+Listed currency symbol,-,,,,,,,,,,,,,,,,
+Fund currency,-,,,,,,,,,,,,,,,,
+Fund currency symbol,-,,,,,,,,,,,,,,,,
+,Asset type,Holding name,Ticker,CUSIP,SEDOL,ISIN,% of fund,Sector,Country,Security depository receipt type,Market value,Face amount,Coupon rate,Maturity date,Shares,Currency Code,Currency Symbol
+,EQUITY,Community Healthcare Trust Inc.,CHCT,20369C106,BXC87C3,US20369C1062,0.007,Health Care REITs,US,-,4372819,-,-,-,146395,-,-
+,EQUITY,Winthrop Realty Trust,-,976ESC301,-,-,0.005,Diversified REITs,-,-,2742248,-,-,15-Nov-2018 - 15-Nov-2045,1892511,-,-
+,EQUITY,Urstadt Biddle Properties Inc.,UBP,917286106,2442105,US9172861067,0.002,Retail REITs,US,-,1012651,-,-,-,55427,-,-
+,SHORT_TERM,Market Liquidity Fund,-,-,-,-,0.102,-,-,-,60647574,606415,-,-,-,-,-
+,SHORT_TERM,Vanguard Market Liquidity Fund,-,-,-,-,0.064,-,-,-,38206970,382031,-,-,-,-,-
+TICKER,IVOG,,,,,,,,,,,,,,,,
+FUND NAME,S&P Mid-Cap 400 Gro ETF,,,,,,,,,,,,,,,,
+Fund Id,3343,,,,,,,,,,,,,,,,
+As of date,30-Jun-2018,,,,,,,,,,,,,,,,
+Equity holdings count,246,,,,,,,,,,,,,,,,
+Bond holdings count,2,,,,,,,,,,,,,,,,
+Short term reserve count,2,,,,,,,,,,,,,,,,
+Listed currency,-,,,,,,,,,,,,,,,,
+Listed currency symbol,-,,,,,,,,,,,,,,,,
+Fund currency,-,,,,,,,,,,,,,,,,
+Fund currency symbol,-,,,,,,,,,,,,,,,,
+,Asset type,Holding name,Ticker,CUSIP,SEDOL,ISIN,% of fund,Sector,Country,Security depository receipt type,Market value,Face amount,Coupon rate,Maturity date,Shares,Currency Code,Currency Symbol
+,EQUITY,Tootsie Roll Industries Inc.,TR,890516107,2896809,US8905161076,0.031,Packaged Foods & Meats,US,-,332039,-,-,-,10763,-,-
+,DEBT,United States Treasury Bill,TBILL,912796QJ1,BDTMTL1,US912796QJ13,0.014,-,-,-,148866,150000,0,15-Nov-2018,-,-,-
+,DEBT,United States Treasury Bill,TBILL,912796NZ8,BF7MHR9,US912796NZ81,0.005,-,-,-,49730,50000,0,11-Oct-2018,-,-,-
+,SHORT_TERM,Vanguard Market Liquidity Fund,-,-,-,-,4.621,-,-,-,50259814,502548,-,-,-,-,-
+,SHORT_TERM,Market Liquidity Fund,-,-,-,-,0.136,-,-,-,1480863,14807,-,-,-,-,-
+TICKER,VWOB,,,,,,,,,,,,,,,,
+FUND NAME,Em Mkt Gov Bond ETF,,,,,,,,,,,,,,,,
+Fund Id,3820,,,,,,,,,,,,,,,,
+As of date,30-Jun-2018,,,,,,,,,,,,,,,,
+Equity holdings count,0,,,,,,,,,,,,,,,,
+Bond holdings count,1045,,,,,,,,,,,,,,,,
+Short term reserve count,2,,,,,,,,,,,,,,,,
+Listed currency,-,,,,,,,,,,,,,,,,
+Listed currency symbol,-,,,,,,,,,,,,,,,,
+Fund currency,-,,,,,,,,,,,,,,,,
+Fund currency symbol,-,,,,,,,,,,,,,,,,
+,Asset type,Holding name,Ticker,CUSIP,SEDOL,ISIN,% of fund,Sector,Country,Security depository receipt type,Market value,Face amount,Coupon rate,Maturity date,Shares,Currency Code,Currency Symbol
+,DEBT,Petroleos Mexicanos,PEMEX,71654QCC4,BD3NBC5,US71654QCC42,0.568,-,-,-,7372059,7759000,6.75,21-Sep-2047,-,-,-
+,DEBT,United Mexican States,MEX,91086QBB3,B76P9J9,US91086QBB32,0.53,-,-,-,6883275,7350000,4.75,08-Mar-2044,-,-,-
+,DEBT,Argentine Republic,ARGENT,040114GX2,BD6QTG1,US040114GX20,0.508,-,-,-,6597750,7125000,7.5,22-Apr-2026,-,-,-
+,DEBT,Petroleos Mexicanos,PEMEX,71654QCG5,BG10BH4,US71654QCG55,0.481,-,-,-,6243005,6080000,6.5,13-Mar-2027,-,-,-
+,DEBT,State of Qatar,QATAR,74727PAY7,BDRV8P7,US74727PAY79,0.47,-,-,-,6101748,6135000,5.103,23-Apr-2048,-,-,-
+
+"Your use of the data supplied by Vanguard is subject to the following terms and conditions excerpt from Vanguard’s agreement. Through your continued use of the data you accept the Terms and Conditions. If you do not accept the Terms and Conditions you must immediately cease using the data. SEDOL Data has been provided from the London Stock Exchange's SEDOL Masterfile which delineate that (i) Customers may not reproduce or redistribute the Data unless in accordance with their license from the Exchange or with its prior written consent and (ii) the customer, and not Vanguard, is responsible for obtaining any such relevant licenses from the Exchange for any reproduction or redistribution of the Data by the customer. ""SEDOL"" and ""SEDOL Masterfile"" are registered trademarks of the London Stock Exchange.",,,,,,,,,,,,,,,,,
+
+
+
+
+
+
+"CGS identifiers have been provided by CUSIP Global Services, managed on behalf of the American Bankers Association by Standard & Poor’s Financial Services, LLC, and are not for use or dissemination in a manner that would serve as a substitute for any CUSIP service. The CUSIP Database, © 2018 American Bankers Association. “CUSIP” is a registered trademark of the American Bankers Association.",,,,,,,,,,,,,,,,,
+
