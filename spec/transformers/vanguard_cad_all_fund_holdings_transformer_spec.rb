@@ -28,7 +28,7 @@ RSpec.describe VanguardCadAllFundHoldingsTransformer do
     expect(first_row[:maturity_date_end]).to eq Date.new(2019, 10, 1)
     expect(first_row[:etfg_date]).to eq Date.new(2018,7,26)
 
-    # First row contain range of maturity_date
+    # Second row contain range of maturity_date
     second_row = rows[1]
     expect(second_row[:fund_ticker]).to eq 'VA'
     expect(second_row[:fund_name]).to eq 'FTSE Developed Asia Pacific All Cap Index ETF'
