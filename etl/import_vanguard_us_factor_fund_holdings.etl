@@ -1,0 +1,19 @@
+# frozen_string_literal: true
+
+require File.expand_path("../../config/environment", __FILE__)
+
+target_date = ENV['etfg_date'] || Time.now.strftime('%Y%m%d')
+factor_fund_holdings_filepath = "/data/csv_input/archive/vanguard/Factor_Fund_Holdings_#{target_date}.csv"
+raise("#{factor_fund_holdings_filepath} not found") unless File.exist?(factor_fund_holdings_filepath)
+
+pre_process do
+  puts "Start importing #{factor_fund_holdings_filepath} ..."
+end
+
+source VanguardUsFactorFundHoldingsSource, factor_fund_holdings_filepath
+transform VanguardUsFactorFundHoldingsTransformer, target_date: target_date
+destination VanguardUsFactorFundHoldingsDestination, $db_config['url']
+
+post_process do
+  puts "Imported from #{factor_fund_holdings_filepath} ..."
+end

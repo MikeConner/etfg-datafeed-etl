@@ -1,0 +1,20 @@
+TICKER,ISIN,SEDOL,CUSIP,Description,Basket Type,Trade Date,NAV,Status,Shares in Creation Units,Application Value,Sum Of Market Value,ActualCash
+BIV,-,-,921937819,Inter-Term Bond ETF,Create/Redeem,07/26/2018,80.62,FINAL,100000,8062000,8033964.68,28035.32
+BLV,-,-,921937793,Long-Term Bond ETF,Create/Redeem,07/26/2018,88.16,FINAL,100000,8816000,8746628.9,69371.1
+BND,-,-,921937835,Total Bond Market ETF,Create/Redeem,07/26/2018,78.9,FINAL,100000,7890000,7836102.43,53897.57
+BNDX,-,-,92203J407,Tot Intl Bond ETF,Create/Redeem,07/26/2018,54.61,FINAL,25000,1365250,1335221.37,30028.63
+BSV,-,-,921937827,Short-Term Bond ETF,Create/Redeem,07/26/2018,78.02,FINAL,100000,7802000,7753453.84,48546.16
+EDV,-,-,921910709,Ext Duration Treasury ETF,Create/Redeem,07/26/2018,111.05,FINAL,50000,5552500,5531164.3,21335.7
+VCIT,-,-,92206C870,Inter-Term Corp Bond ETF,Redeem,07/26/2018,83.49,FINAL,100000,8349000,8276783.05,72216.95
+VCIT,-,-,92206C870,Inter-Term Corp Bond ETF,Create/Redeem,07/26/2018,83.49,FINAL,100000,8349000,8259394.53,89605.47
+VCLT,-,-,92206C813,Long-Term Corp Bond ETF,Redeem,07/26/2018,88.12,FINAL,100000,8812000,8741094.96,70905.04
+VCLT,-,-,92206C813,Long-Term Corp Bond ETF,Create/Redeem,07/26/2018,88.12,FINAL,100000,8812000,8746692.8,65307.2
+
+"Your use of the data supplied by Vanguard is subject to the following terms and conditions excerpt from Vanguard’s agreement. Through your continued use of the data you accept the Terms and Conditions. If you do not accept the Terms and Conditions you must immediately cease using the data. SEDOL Data has been provided from the London Stock Exchange's SEDOL Masterfile which delineate that (i) Customers may not reproduce or redistribute the Data unless in accordance with their license from the Exchange or with its prior written consent and (ii) the customer, and not Vanguard, is responsible for obtaining any such relevant licenses from the Exchange for any reproduction or redistribution of the Data by the customer. ""SEDOL"" and ""SEDOL Masterfile"" are registered trademarks of the London Stock Exchange.",,,,,,,,,,,,
+
+
+
+
+
+
+"CGS identifiers have been provided by CUSIP Global Services, managed on behalf of the American Bankers Association by Standard & Poor’s Financial Services, LLC, and are not for use or dissemination in a manner that would serve as a substitute for any CUSIP service. The CUSIP Database, © 2018 American Bankers Association. “CUSIP” is a registered trademark of the American Bankers Association.",,,,,,,,,,,,

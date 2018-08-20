@@ -1,0 +1,20 @@
+TICKER,ISIN,SEDOL,CUSIP,Description,Trade Date,NAV,Status,Shares in Creation Units,Application Value,Sum Of Market Value,Actual Cash
+IVOG,-,-,921932869,S&P Mid-Cap 400 Gro ETF,07/26/2018,142.57,FINAL,25000,3564250,3563514.77,735.23
+IVOO,-,-,921932885,S&P Mid-Cap 400 ETF,07/26/2018,134.59,FINAL,25000,3364750,3364660.17,89.83
+IVOV,-,-,921932844,S&P Mid-Cap 400 Value ETF,07/26/2018,127.08,FINAL,25000,3177000,3176600.34,399.66
+MGC,-,-,921910873,Mega Cap ETF,07/26/2018,97.67,FINAL,25000,2441750,2441118.31,631.69
+MGK,-,-,921910816,Mega Cap Growth ETF,07/26/2018,123.97,FINAL,25000,3099250,3098932.04,317.96
+MGV,-,-,921910840,Mega Cap Value ETF,07/26/2018,78.11,FINAL,25000,1952750,1952645.48,104.52
+VAW,-,-,92204A801,Materials ETF,07/26/2018,135.26,FINAL,25000,3381500,3380533.2,966.8
+VB,-,-,922908751,Small-Cap ETF,07/26/2018,160.51,FINAL,25000,4012750,4012888.32,-138.32
+VBK,-,-,922908595,Small-Cap Growth ETF,07/26/2018,181.62,FINAL,25000,4540500,4540828.32,-328.32
+VBR,-,-,922908611,Small-Cap Value ETF,07/26/2018,139.62,FINAL,25000,3490500,3490117.25,382.75
+
+"Your use of the data supplied by Vanguard is subject to the following terms and conditions excerpt from Vanguard’s agreement. Through your continued use of the data you accept the Terms and Conditions. If you do not accept the Terms and Conditions you must immediately cease using the data. SEDOL Data has been provided from the London Stock Exchange's SEDOL Masterfile which delineate that (i) Customers may not reproduce or redistribute the Data unless in accordance with their license from the Exchange or with its prior written consent and (ii) the customer, and not Vanguard, is responsible for obtaining any such relevant licenses from the Exchange for any reproduction or redistribution of the Data by the customer. ""SEDOL"" and ""SEDOL Masterfile"" are registered trademarks of the London Stock Exchange.",,,,,,,,,,,
+
+
+
+
+
+
+"CGS identifiers have been provided by CUSIP Global Services, managed on behalf of the American Bankers Association by Standard & Poor’s Financial Services, LLC, and are not for use or dissemination in a manner that would serve as a substitute for any CUSIP service. The CUSIP Database, © 2018 American Bankers Association. “CUSIP” is a registered trademark of the American Bankers Association.",,,,,,,,,,,
