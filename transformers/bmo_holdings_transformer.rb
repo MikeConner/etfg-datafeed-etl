@@ -8,15 +8,16 @@ class BmoHoldingsTransformer
   end
 
   def process(row)
-    new_row = {}
-    new_row[:ticker] = row['Ticker']
-    new_row[:instrument_type] = row['InstrumentType']
-    new_row[:name] = row['Name']
-    new_row[:sedol] = cleanup_data(row['SEDOL'])
-    new_row[:cusip] = cleanup_data(row['CUSIP'])
-    new_row[:security_id] = cleanup_data(row['SecurityID'])
-    new_row[:quantity_per_paramount] = row['Quantity/ParAmount']
-    new_row[:etfg_date] = Date.parse(@target_date)
-    new_row
+    row = convert_dash_to_nil(row)
+    new_row = {
+      ticker: row['Ticker'],
+      instrument_type: row['InstrumentType'],
+      name: row['Name'],
+      sedol: cleanup_data(row['SEDOL']),
+      cusip: cleanup_data(row['CUSIP']),
+      security_id: cleanup_data(row['SecurityID']),
+      quantity_per_paramount: row['Quantity/ParAmount'],
+      etfg_date: Date.parse(@target_date)
+    }
   end
 end

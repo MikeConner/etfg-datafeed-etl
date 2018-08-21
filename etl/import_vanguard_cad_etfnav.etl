@@ -1,0 +1,19 @@
+# frozen_string_literal: true
+
+require File.expand_path("../../config/environment", __FILE__)
+
+target_date = ENV['etfg_date'] || Time.now.strftime('%Y%m%d')
+etfnav_filepath = "/data/csv_input/archive/vanguard_cad/ETFNAV_#{target_date}.csv"
+raise("#{etfnav_filepath} not found") unless File.exist?(etfnav_filepath)
+
+pre_process do
+  puts "Start importing #{etfnav_filepath} ..."
+end
+
+source CSVSource, etfnav_filepath, headers: true
+transform VanguardCadEtfnavTransformer, target_date: target_date
+destination VanguardCadEtfnavDestination, $db_config['url']
+
+post_process do
+  puts "Imported from #{etfnav_filepath} ..."
+end

@@ -1,0 +1,26 @@
+TICKER,ISIN,SEDOL,CUSIP,Description,Basket Type,Trade Date,NAV,Status,Shares in Creation Units,Application Value,Sum Of Market Value,ActualCash
+VAB,CA92203E1016,B6QHK17,-,Vanguard Canadian Aggregate Bond Index ETF,Redeem,07/26/2018,24.8191,FINAL,100000,2481910,2429788.37,52121.63
+VAB,CA92203E1016,B6QHK17,-,Vanguard Canadian Aggregate Bond Index ETF,Create,07/26/2018,24.8191,FINAL,100000,2481910,2461572.27,20337.73
+VBG,CA92206H1010,BBX47X7,-,Vanguard Global ex-U.S. Aggregate Bond Index ETF (CAD-hedged),Create/Redeem,07/26/2018,26.5776,FINAL,10000,265776,265052.66,723.34
+VBU,CA92206G1037,BBX47W6,-,Vanguard U.S. Aggregate Bond Index ETF (CAD-hedged),Create/Redeem,07/26/2018,24.124,FINAL,10000,241240,240420.47,819.53
+VCB,CA92210P1071,BD8KRT0,-,Vanguard Canadian Corporate Bond Index ETF,Redeem,07/26/2018,24.4747,FINAL,100000,2447470,2430665.05,16804.95
+VCB,CA92210P1071,BD8KRT0,-,Vanguard Canadian Corporate Bond Index ETF,Create,07/26/2018,24.4747,FINAL,100000,2447470,2429884.73,17585.27
+VGV,CA92210N1024,BD8KRV2,-,Vanguard Canadian Government Bond Index ETF,Create,07/26/2018,24.6588,FINAL,100000,2465880,2435615.89,30264.11
+VGV,CA92210N1024,BD8KRV2,-,Vanguard Canadian Government Bond Index ETF,Redeem,07/26/2018,24.6588,FINAL,100000,2465880,2418648.79,47231.21
+VLB,CA92211H1047,BD8KRR8,-,Vanguard Canadian Long-Term Bond Index ETF,Redeem,07/26/2018,25.476,FINAL,100000,2547600,2535548.89,12051.11
+VLB,CA92211H1047,BD8KRR8,-,Vanguard Canadian Long-Term Bond Index ETF,Create,07/26/2018,25.476,FINAL,100000,2547600,2536081.72,11518.28
+VSB,CA92203G1063,B6QYK07,-,Vanguard Canadian Short-Term Bond Index ETF,Redeem,07/26/2018,23.5649,FINAL,100000,2356490,2337959.41,18530.59
+VSB,CA92203G1063,B6QYK07,-,Vanguard Canadian Short-Term Bond Index ETF,Create,07/26/2018,23.5649,FINAL,100000,2356490,2346181.2,10308.8
+VSC,CA92203N1015,B7Z7D83,-,Vanguard Canadian Short-Term Corporate Bond Index ETF,Redeem,07/26/2018,23.9425,FINAL,100000,2394250,2376622.44,17627.56
+VSC,CA92203N1015,B7Z7D83,-,Vanguard Canadian Short-Term Corporate Bond Index ETF,Create,07/26/2018,23.9425,FINAL,100000,2394250,2368658.72,25591.28
+VSG,CA92207Y1034,BD8KRS9,-,Vanguard Canadian Short-Term Government Bond Index ETF,Redeem,07/26/2018,24.2109,FINAL,100000,2421090,2407602.51,13487.49
+VSG,CA92207Y1034,BD8KRS9,-,Vanguard Canadian Short-Term Government Bond Index ETF,Create,07/26/2018,24.2109,FINAL,100000,2421090,2405070.82,16019.18
+
+"Your use of the data supplied by Vanguard is subject to the following terms and conditions excerpt from Vanguard’s agreement. Through your continued use of the data you accept the Terms and Conditions. If you do not accept the Terms and Conditions you must immediately cease using the data. SEDOL Data has been provided from the London Stock Exchange's SEDOL Masterfile which delineate that (i) Customers may not reproduce or redistribute the Data unless in accordance with their license from the Exchange or with its prior written consent and (ii) the customer, and not Vanguard, is responsible for obtaining any such relevant licenses from the Exchange for any reproduction or redistribution of the Data by the customer. ""SEDOL"" and ""SEDOL Masterfile"" are registered trademarks of the London Stock Exchange.",,,,,,,,,,,,
+
+
+
+
+
+
+"CGS identifiers have been provided by CUSIP Global Services, managed on behalf of the American Bankers Association by Standard & Poor’s Financial Services, LLC, and are not for use or dissemination in a manner that would serve as a substitute for any CUSIP service. The CUSIP Database, © 2018 American Bankers Association. “CUSIP” is a registered trademark of the American Bankers Association.",,,,,,,,,,,,
