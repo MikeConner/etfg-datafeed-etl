@@ -1,0 +1,7 @@
+Cusip,ISIN,Ticker,Date,Name,Indicative Value,Shares Outstanding,Index Value,Coupon,Market Capitalization,Closing Participation,Closing Note Financing Level,Closing Note T-Bills Amount,Closing Note Index Exposure,Next Closing Note Financing Level,Next Closing Note T-Bills Amount,Equity Allocation,Vol Allocation,Short VXX Shares,VXX Closing NAV,Accrued Fees,Accrued Interest,Rebalancing Trigger Level,Termination Trigger Level,Index Roll Cost,Monthly Factor
+06746Q256,US06746Q2562,FFEU,07/26/2018,Barclays ETN+ FI Enhanced Europe 50 ETN Series C,101.4816,7282562,1635.1800,,739034391.76,1.9673,98.1657,,199.6473,,,0.0000,0.0000,,,0.00000,,1286.4172,1125.6151,,
+06746Q249,US06746Q2497,FIYY,07/26/2018,Barclays ETN+ FI Enhanced Global High Yield ETN Series B,100.3713,15892290,2020.3200,,1595109147.30,1.9609,96.4452,,196.8165,,,0.0000,0.0000,,,0.00000,,1584.0146,1386.0128,,
+06744M836,US06744M8367,FLEU,07/26/2018,Barclays ETN+ FI Enhanced Europe 50 ETN Series B,151.0247,367800,1635.1800,,55545156.00,1.9702,146.5302,,297.5550,,,0.0000,0.0000,,,0.00000,,1288.3849,1127.3368,,
+06742A750,US06742A7506,IMLP,07/26/2018,iPath S&P MLP ETN,18.6343,2695937,1600.2600,0.0000,50225306.31,0.0000,,,18.6514,,,,,,,0.02808,0.01101,,,,
+06742W570,US06742W5702,TAPR,07/26/2018,Barclays Inverse U.S. Treasury Composite ETN ,27.8138,660000,3240.8050,,18354600.00,,,,27.8138,,,,,,,,,,,0.000000000,0.008582363
+

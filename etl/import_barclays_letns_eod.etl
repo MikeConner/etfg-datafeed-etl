@@ -1,0 +1,19 @@
+# frozen_string_literal: true
+
+require File.expand_path("../../config/environment", __FILE__)
+
+target_date = ENV['etfg_date'] || Time.now.strftime('%Y%m%d')
+letns_eod_filepath = "/data/csv_input/archive/barclays/LETNs_EOD_#{target_date}.csv"
+raise("#{letns_eod_filepath} not found") unless File.exist?(letns_eod_filepath)
+
+pre_process do
+  puts "Start importing #{letns_eod_filepath} ..."
+end
+
+source CSVSource, letns_eod_filepath, headers: true, skip_blanks: true
+transform BarclaysLetnsEodTransformer, target_date: target_date
+destination BarclaysLetnsEodDestination, $db_config['url']
+
+post_process do
+  puts "Imported from #{letns_eod_filepath} ..."
+end
