@@ -1,0 +1,19 @@
+# frozen_string_literal: true
+
+require File.expand_path("../../config/environment", __FILE__)
+
+target_date = ENV['etfg_date'] || Time.now.strftime('%Y%m%d')
+calendar_letns_filepath = "/data/csv_input/archive/barclays/CALENDAR_LETNs_EOD_#{target_date}.csv"
+raise("#{calendar_letns_filepath} not found") unless File.exist?(calendar_letns_filepath)
+
+pre_process do
+  puts "Start importing #{calendar_letns_filepath} ..."
+end
+
+source CSVSource, calendar_letns_filepath, headers: true, skip_blanks: true
+transform BarclaysCalendarLetnsEodTransformer, target_date: target_date
+destination BarclaysCalendarLetnsEodDestination, $db_config['url']
+
+post_process do
+  puts "Imported from #{calendar_letns_filepath} ..."
+end
